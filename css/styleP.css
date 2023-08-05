@@ -1,0 +1,51 @@
+@font-face {
+    font-family: sef6;
+    src: url(../fonts/f6/Balkey.ttf);
+}
+
+@font-face {
+    font-family: sef8;
+    src: url(../fonts/f8/ColinasPersonalUseRegular-2OBe3.ttf);
+}
+
+body::-webkit-scrollbar {
+    background-color: transparent;
+    width: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: darkgray;
+    width: 3px;
+}
+
+main .ff{
+    height: 550px;
+    /* background: url(../images/road.jpg) no-repeat center/100% 100% ; */
+    background-color: #2d3f66;
+    background-blend-mode: multiply;
+    /* position: relative !important; */
+}
+
+
+h1,
+h2,
+h3 {
+    font-family: sef8 !important;
+}
+
+.navbar-brand img {
+    width: 165px;
+}
+
+nav li a , h5 ,p {
+    font-family: sef6 !important;
+}
+
+.carousel-inner img{
+    height: 455px;
+    box-shadow: 2px 2px lightgray !important;
+    
+}
+.carousel-caption{
+    background-color: rgba(211, 211, 211,0.7) !important;
+}

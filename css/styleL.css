@@ -1,0 +1,51 @@
+@font-face {
+    font-family: sef6;
+    src: url(../fonts/f6/Balkey.ttf);
+}
+
+body::-webkit-scrollbar {
+    background-color: transparent;
+    width: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: darkgray;
+    width: 3px;
+}
+
+.form-control {
+    border: none !important;
+    border-bottom: 2px solid gray !important;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+
+body {
+    background: url(../images/log.jpg) no-repeat bottom/cover fixed;
+}
+
+h1,
+h4,
+legend,
+input,
+p,
+button,
+label {
+    font-family: sef6 !important;
+
+}
+
+.w-15 {
+    width: 15% !important;
+}
+
+.navbar-brand img {
+    width: 175px;
+}
+
+nav li a {
+    font-family: sef6 !important;
+}

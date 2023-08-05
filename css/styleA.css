@@ -1,0 +1,229 @@
+@font-face {
+    font-family: sef6;
+    src: url(../fonts/f6/Balkey.ttf);
+}
+
+@font-face {
+    font-family: sef8;
+    src: url(../fonts/f8/ColinasPersonalUseRegular-2OBe3.ttf);
+}
+
+/* @media(max-width:1170px) and (min-width: 1020px) {
+    .missic {
+        width: 220px;
+    }
+}
+
+@media(max-width:1021px) and (min-width:800px) {
+    .missic {
+        width: 170px !important;
+        position: absolute !important;
+        left: 300px ;
+        top: 50px;
+    }
+}
+@media((max-width:1021px) and (min-width:800px)){
+    .pho{
+        width:200px !important;
+    }
+} */
+@media((max-width:2200px) and (min-width:1930px)){
+    section:nth-of-type(2){
+        min-height: 800px !important;
+    }
+    svg{
+        min-height: 800px !important;
+    }
+}
+@media((max-width:1931px) and (min-width:1485px)){
+    section:nth-of-type(2){
+        min-height: 700px !important;
+    }
+    svg{
+        min-height: 700px !important;
+    }
+}
+@media((max-width:575px)){
+    section:nth-of-type(2){
+        min-height: 900px !important;
+    }
+    svg{
+        min-height: 900px !important;
+    }
+}
+
+body::-webkit-scrollbar {
+    background-color: transparent;
+    width: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: darkgray;
+    width: 3px;
+}
+main{
+    min-height:300px;
+}
+
+header {
+    height: 550px;
+    /* background: url(../images/road.jpg) no-repeat center/100% 100% ; */
+    background-color: #2d3f66;
+    background-blend-mode: multiply;
+    /* position: relative !important; */
+}
+
+header nav li a {
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: sef6 !important;
+    
+}
+
+h1,
+h2,
+h3 {
+    font-family: sef8 !important;
+}
+
+.navbar-brand img {
+    /* width:200px ; */
+    width: 170px;
+}
+
+section:first-of-type {
+    min-height: 350px;
+    background-color: lightgray
+}
+
+/* section:first-of-type .valu div{
+    background-color: white;
+    width:200px;
+    height:200px;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    -ms-border-radius: 200px;
+    -o-border-radius: 200px;
+} */
+
+
+section:first-of-type .valu div img {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+
+
+/* nav{
+    max-height: 145px;
+} */
+
+section:nth-of-type(2) {
+    /* background-color: #d1e4fd */
+    /* position: relative; */
+    min-height: 550px;
+}
+
+svg {
+    rotate: 90deg;
+    /* position: absolute; */
+    min-height: 550px;
+}
+
+/* .missic {
+    position: absolute;
+    left: 800px;
+    top: 50px;
+}
+
+.missi div div:first-of-type img {
+    height: 300px;
+    position: absolute;
+    top: 120px;
+    left: 80px;
+}
+
+.missi div div:nth-of-type(2) img {
+    width: 200px;
+    position: absolute;
+    left: 310px;
+    top: 100px;
+}
+
+.missi div div:nth-of-type(3) img {
+    height: 190px;
+    position: absolute;
+    left: 310px;
+    top: 260px;
+} */
+
+
+/* shemei trial */
+.missi{
+    /* position: absolute; */
+    z-index: 99;
+}
+
+
+
+.intro-section {
+    /* position: relative; */
+    min-height: 500px;
+    /*padding: 100px 0;
+    */
+    /* border: 30px solid rgba(209, 228, 253,0.3) ;
+    box-sizing: border-box;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px; */
+}
+  
+  .image-container,
+  .text-container {
+    width: 50%;
+    /* float: left; */
+    z-index:99;
+    /* padding: 0 30px; */
+    /* box-sizing: border-box; */
+  }
+  
+  .image-container {
+    /* position: relative; */
+    
+    /* margin-top: 30px; */
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    width: 70%;
+  }
+  
+  .text-container {
+    width: 37%;
+    border: 3px solid darkgray;
+  }
+  
+  .background-shape {
+    /* position: absolute; */
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    min-height: inherit;
+    /* background: #d1e4fd; */
+    /* opacity: 0.7; */
+    /* -webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    border-radius: 20px; */
+    /* z-index: 99; */
+  }
+/* .carousel-item{
+    height: 350px
+} */
